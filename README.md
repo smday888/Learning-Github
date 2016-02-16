@@ -11,3 +11,11 @@ Thus far I have learned that:
 3. Each branch that is eventually "committed" should (must?) include a description of the changes made, the reasons for these changes, etc.
 
 I notice that an automatic numbering editor took over in the above list. I wonder what other editing capabilities this basic editor has. I will learn.
+
+Now I have "committed" the edits to the readme file (the creation of the readme file really), which I had initially thought would make changes to the master branch. Not so. There are subsequent steps (yes, plural) of "opening" a "pull request", which allows one to view the branch edits as compared with the master branch (differences being highlighted in green). Once one is satisfied that the changes are good, one must select a big green button to "create" the "pull request". One is not yet done, however. Another (bigger?) green button must be selected to again "create pull request". Finally, the pull request is created, and one has the option to "merge" the pull request. This was a simple change, and thus it was possible to simply merge with the master branch. I can imagine in more complicated situations, things would not be so simple.
+
+I do not really understand why the process of "creating" a "pull request" has to be done twice. Merging was done once.
+
+After I completed all of that, I tried to open a new branch so I could update my experiences. I called the new branch "readme-edits2". Unlike the original readme-edits which showed it was "under" (I think that's the word) the master branch, this time the program indicated my new branch readme-edits2 was equal to (or on the same level with) the master branch. I do not understand why this is. Quite confusing.
+
+I will not try to commit these changes, then open a new pull request, then create pull request, then create pull request, then merge. I'm not sure how all this will work given that this branch is somehow on par with the master branch. This actually seems very counter-intuitive since the tutorial seemed to suggest that there was only one master branch and I thought therefore that every other branch must be below this. Well, here goes.
