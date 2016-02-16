@@ -27,3 +27,16 @@ I will leave this all now for a while (after committing these changes, then open
 Well that was strange. I committed changes to readme-edits3 but when I opened the pull requests tab readme-edits3 was not an option for a pull request. I've come back to edit my readme-edits3 branch again to see if it shows up this time.
 
 And I'm very confused now. This is my third attempt at edits3. I appears that the first two were actually committed to the master branch straight away. I apparently had somehow selected to create pull requests rather than branches the first two times. When selecting "branch" in the drop-down menu for "branch:master" and entering "readme-edits3" there is a green button that says "create pull request". I must have selected that, rather than the blue "create branch" button. This is a bit confusing. I note this time the buttons at the bottom have different choices: (a) commit directly to the readme-edits3 branch; or (b) create a new branch for this commit and start a pull request. Let me see if this works this time as it did with edits and edits2. Here I go again.
+
+Okay, in edits4 now. And I have learned an important thing, which I consider an error in the tutorial. The tutorial says this:
+
+To create a new branch
+
+    Go to your new repository hello-world.
+    Click the drop down at the top of the file list that says branch: master.
+    Type a branch name, readme-edits, into the new branch text box.
+    Select the blue Create branch box or hit “Enter” on your keyboard.
+
+But if I hit "Enter", rather than selecting the blue "create branch box", it does not create a branch beneath master. It creates a branch "even" with master. Then if/when I commit changes to that branch, it makes the changes directly to master. This is why nothing shows up for edits3 when I eventually look to open a pull request.
+
+I am satisfied I've completed the initial tutorial now - and found what I consider to be one misleading aspect to it.
